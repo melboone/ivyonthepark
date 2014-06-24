@@ -1,13 +1,4 @@
-
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<title>      </title>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="" media="screen">
-<script type="javascript" src=""></script>
-</head>
-<body>
-
-</body>
-</html>
+    <!-- Bootstrap core JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="includes/js/bootstrap.min.js"></script>
+</body></html>

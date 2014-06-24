@@ -1,13 +1,11 @@
+<?php include('includes/header.php'); ?>
 
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<title>      </title>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="" media="screen">
-<script type="javascript" src=""></script>
-</head>
-<body>
+<div class="page-container">
+	<div clas="container-image">
+		<img src="">
+	</div>
+	<div class="container-text">
+	</div>
+</div>
 
-</body>
-</html>
+<?php include('includes/footer.php'); ?>
