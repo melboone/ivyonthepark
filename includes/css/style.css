@@ -1,27 +1,73 @@
 body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
   margin: 0;
+  padding: 0;
+}
+
+.page-container{
+	margin-top: -1px;
 }
 
 .navbar-header img {
 	margin: 15px 0;
 }
+img.page-image{
+	max-width: 100%;
+}
+.main-container {
+	width: 70%;
+	float: left;
+}
+.container-text{
+	width: 30%;
+	float: right;
+	padding-right: 20px;
+}
+h2 {
+	color: #1DB875 ;
+}
+.border{
+	width: 100%;
+	clear: both;
+	background-image: url(../images/border.png);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+}
 
+.footer-table{
+	width: 100%;
+}
+.floor-plans {
+	width: 32%;
+	text-align: center;
+	display: inline-block;
+}
+.roi-form{
+	width: 32%;
+	display: inline-block;
+}
+.contact{
+	display: inline-block;
+	width: 32%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contact-img-left{
+	display: inline-block;
+	vertical-align: middle;
+}
+.contact-img-left img{
+	width: 150px;
+}
+.contact-text-right{
+	display: inline-block;
+}
+.floor-plans{
+	border-left-image: url('../images/floor-border-left.png')
+}
 article,
 aside,
 details,
@@ -276,18 +322,6 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
 input,
 button,
 select,
@@ -371,7 +405,6 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
 }
 h1 small,
 h2 small,
@@ -3649,7 +3682,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -3723,7 +3755,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: fixed;
+  /* position: fixed; */
   right: 0;
   left: 0;
   z-index: 1030;
