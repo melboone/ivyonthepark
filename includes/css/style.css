@@ -3872,6 +3872,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  letter-spacing: 2px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -3900,12 +3901,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: right;
     margin: 0;
     margin-top: 95px;
-    text-transform: uppercase;
   }
   .navbar-nav > li {
     float: left;
-    padding-left: 15px;
-    font-weight: 700;
+    padding-left: 20px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 16px;
+  }
+  .navbar-nav > li:first-child{
+    padding-left: 0
   }
   .navbar-nav > li > a {
     padding-top: 15px;
