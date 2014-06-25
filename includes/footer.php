@@ -1,7 +1,6 @@
-<div class="border">.</div>
-<div class="footer">
+<div class="footer footer-border">
 	<div class="footer-table">
-		<div class="floor-plans">
+		<div class="table-left">
 <h3>FLOOR PLANS</h3>
 <a href="#">CLICK TO VIEW</a>
 <p>G.01 | G.02 | G.03</p>
@@ -12,10 +11,12 @@
 <p>PENTHOUSE 2</p>
 
 		</div>
-		<div class="roi-form">
+		<div class="table-center">
 			<h2>Register your interst now</h2>
+			<p style="mandatory-field"><span>*</span> mandatory field</p>
+			<?php include('form.php'); ?>
 		</div>
-		<div class="contact">
+		<div class="table-right">
 			<h2>Contact Us</h2>
 			<div>
 				<div class="contact-img-left">
