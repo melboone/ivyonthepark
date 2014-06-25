@@ -125,13 +125,14 @@ if( !$formOnly ){
 ";
 }; // if
 ?>
-
 ol.phpfmg_form{
     list-style-type:none;
     padding:0px;
     margin:0px;
 }
-
+.phpfmg_form{
+    padding-top: 15px !important;
+}
 ol.phpfmg_form input, ol.phpfmg_form textarea, ol.phpfmg_form select{
     border: none;
     border-bottom: 1px solid #333;
@@ -154,6 +155,10 @@ ol.phpfmg_form li{
 }
 
 .field_block_over{
+}
+
+.field_block{
+    padding-bottom: 17px;
 }
 
 .form_submit_block{
