@@ -13,7 +13,7 @@
 		</div>
 		<div class="table-center">
 			<h2>Register your interst now</h2>
-			<p style="mandatory-field"><span>*</span> mandatory field</p>
+			<p class="mandatory-field"><span>*</span> mandatory field</p>
 			<?php include('form.php'); ?>
 		</div>
 		<div class="table-right">
