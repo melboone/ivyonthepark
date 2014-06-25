@@ -90,17 +90,21 @@ img.page-image{
 
 .contact-img-left{
 	display: inline-block;
-	vertical-align: middle;
-  width: 150px;
+	vertical-align: bottom;
+  width: 120px;
   max-width: 48%;
 }
 .contact-img-left img{
-	width: 150px;
+	width: 100px;
   max-width: 100%;
 }
 .contact-text-right{
 	display: inline-block;
   width: 50%
+}
+.contact-text-right p{
+  padding: 0;
+  margin: 3px;
 }
 .floor-plans{
 	border-left-image: url('../images/floor-border-left.png')
