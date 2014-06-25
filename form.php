@@ -129,6 +129,8 @@ ol.phpfmg_form{
     list-style-type:none;
     padding:0px;
     margin:0px;
+    letter-spacing: normal;
+    line-height: normal;
 }
 .phpfmg_form{
     padding-top: 15px !important;
@@ -221,10 +223,11 @@ hr.sectionbreak{
 	display: inline-block;
 }
 .col_label{
-	width: 50px;
+	width: 55px;
 }
 .col_field{
 	width: 70%;
+    padding-left: 25px;
 }
 .form_submit_block{
 	text-align: right;

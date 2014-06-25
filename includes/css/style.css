@@ -24,12 +24,14 @@
 }
 body {
   font-family: PlayfairDisplay-Regular, Verdana, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 1.42857143;
   color: #797A7D;
   background-color: #fff;
   margin: 0;
   padding: 0;
+  letter-spacing: 1px;
+  line-height: 2em;
 }
 
 .page-container{
@@ -43,13 +45,22 @@ img.page-image{
 	max-width: 100%;
 }
 .main-container {
-	width: 70%;
-	float: left;
+	width: 69%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: -11px;
 }
 .container-text{
 	width: 30%;
-	float: right;
-	padding-right: 20px;
+	display: inline-block;
+	padding: 35px;
+	vertical-align: top;
+}
+.container-text p:first-child{
+	color: #0BB36A;
+	font-size: 1.5em;
+	padding-top: 30px;
+
 }
 .footer-border{
 	width: 100%;
@@ -66,7 +77,13 @@ img.page-image{
 	width: 32%;
 	text-align: center;
 	display: inline-block;
-  vertical-align: top;
+  	vertical-align: top;
+}
+.table-left p{
+	letter-spacing: 2px;
+}
+.table-left span{
+	font-size: 1.1em;
 }
 .table-center{
 	width: 32%;
@@ -115,9 +132,14 @@ img.page-image{
 .floor-plans{
 	border-left-image: url('../images/floor-border-left.png')
 }
+.table-left a{
+	color: inherit;
+	font-size: 0.9em;
+}
 .mandatory-field{
   font-family: PlayfairDisplay-Italic;
   font-size: 0.8em;
+  line-height: normal;
 }
 .mandatory-field span{
   color: #ff0000;
@@ -547,8 +569,9 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 h4,
 .h4 {

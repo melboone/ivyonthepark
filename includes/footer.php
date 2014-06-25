@@ -7,8 +7,8 @@
 <p>G.04 | G.05 | G.06</p>
 <p>1.01 | 1.02 | 1.03</p>
 <p>1.04 | 1.05 | 1.06</p>
-<p>PENTHOUSE 1</p>
-<p>PENTHOUSE 2</p>
+<p>PENTHOUSE <span>1</span></p>
+<p>PENTHOUSE <span>2</span></p>
 
 		</div>
 		<div class="table-center">
