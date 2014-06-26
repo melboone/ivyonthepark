@@ -1,15 +1,16 @@
 <div class="footer footer-border">
 	<div class="footer-table">
 		<div class="table-left">
-<h3>FLOOR PLANS</h3>
-<a href="#">CLICK TO VIEW</a>
-<p>G.01 | G.02 | G.03</p>
-<p>G.04 | G.05 | G.06</p>
-<p>1.01 | 1.02 | 1.03</p>
-<p>1.04 | 1.05 | 1.06</p>
-<p>PENTHOUSE <span>1</span></p>
-<p>PENTHOUSE <span>2</span></p>
-
+			<div>
+				<h3>FLOOR PLANS</h3>
+				<a href="#">CLICK TO VIEW</a>
+				<p>G.01 | G.02 | G.03</p>
+				<p>G.04 | G.05 | G.06</p>
+				<p>1.01 | 1.02 | 1.03</p>
+				<p>1.04 | 1.05 | 1.06</p>
+				<p>PENTHOUSE <span>1</span></p>
+				<p>PENTHOUSE <span>2</span></p>
+			</div>
 		</div>
 		<div class="table-center">
 			<h2>Register your interst now</h2>

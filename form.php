@@ -184,11 +184,12 @@ ol.phpfmg_form li{
     border: 1px dashed #ff0000;
     padding: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .form_error_highlight{
-    background-color: #F4F6E5;
-    border-bottom: 1px dashed #ff0000;
+    color: #FF0000;
 }
 
 div.instruction_error{
@@ -209,14 +210,15 @@ hr.sectionbreak{
 
 
 #frmFormMailContainer input[type="submit"]{
-    padding: 5px 20px; 
+    padding: 3px 30px; 
     background-color: #FFF;
     border: 1px solid #333;
     color:#797A7D;
 }
 
 #frmFormMailContainer input[type="submit"]:hover{
-    background-color: #E4F0F8;
+    background-color: #1DB875;
+    color: #FFF;
 }
 
 .col_field, .col_label{
