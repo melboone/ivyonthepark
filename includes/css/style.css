@@ -77,7 +77,7 @@ img.page-image{
 	width: 32%;
 	text-align: center;
 	display: inline-block;
-  	vertical-align: top;
+  vertical-align: top;
 }
 .table-left p{
 	letter-spacing: 2px;
@@ -85,6 +85,16 @@ img.page-image{
 .table-left span{
 	font-size: 1.1em;
 }
+.table-left div:first-child{
+  border-width: 20px;
+  max-width: 80%;
+  margin: auto;
+  width: 350px;
+  padding: 20px 0;
+  min-width: 190px;
+  border-image: url('../images/green-border.jpg') 100 100 100 100 repeat stretch;
+}
+
 .table-center{
 	width: 32%;
 	display: inline-block;
@@ -3908,6 +3918,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -3939,9 +3950,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav > li {
     float: left;
-    padding-left: 20px;
     font-family: PlayfairDisplay-Regular;
-    font-size: 16px;
+    font-size: 15px;
   }
   .navbar-nav > li:first-child{
     padding-left: 0
