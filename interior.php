@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-<div class="page-container active">
+<div class="page-container">
 	<div class="main-container">
 		<img src="includes/images/architecture.jpg" alt="Ivy Architecture" class="page-image">
 	</div>

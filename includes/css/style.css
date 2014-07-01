@@ -32,7 +32,19 @@ body {
   padding: 0;
   letter-spacing: 1px;
   line-height: 2em;
+  width: 100%;
+  min-width: 1500px;
 }
+
+
+
+.menu2 .menu .menu2 a,
+.menu3 .menu .menu3 a,
+.menu4 .menu .menu4 a,
+.menu5 .menu .menu5 a,
+.menu6 .menu .menu6 a,
+.menu7 .menu .menu7 a,
+.menu a:hover {font-weight: bold;}
 
 .page-container{
 	margin-top: -1px;
@@ -49,12 +61,17 @@ img.page-image{
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: -11px;
+	border-width: 0 15px 0 0;
+	border-image: url("../images/green-border.jpg") 0 1 0 0 repeat;
 }
 .container-text{
 	width: 30%;
 	display: inline-block;
 	padding: 35px;
 	vertical-align: top;
+	border-width: 0 0 0 15px;
+	border-image: url("../images/green-border.jpg") 0 0 0 1 repeat;
+	margin-left: -20px;
 }
 .container-text p:first-child{
 	color: #0BB36A;
@@ -78,6 +95,7 @@ img.page-image{
 	text-align: center;
 	display: inline-block;
   vertical-align: top;
+  padding-top: 25px;
 }
 .table-left p{
 	letter-spacing: 2px;
@@ -137,7 +155,8 @@ img.page-image{
 }
 .contact-text-right p{
   padding: 0;
-  margin: 3px;
+  line-height: 1.5em;
+  margin: 0;
 }
 .floor-plans{
 	border-left-image: url('../images/floor-border-left.png')
@@ -145,6 +164,7 @@ img.page-image{
 .table-left a{
 	color: inherit;
 	font-size: 0.9em;
+  text-transform: uppercase;
 }
 .mandatory-field{
   font-family: PlayfairDisplay-Italic;
