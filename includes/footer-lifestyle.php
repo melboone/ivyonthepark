@@ -3,7 +3,7 @@
 		<div class="table-left">
 			<div>
 				<h3>Location Map</h3>
-				<p><a href="#">Click to view</a></p>
+				<p><a href="includes/images/ivy-map.jpg" class="group3">Click to view</a></p>
 			</div>
 		</div>
 		<div class="table-center">
@@ -15,7 +15,7 @@
 			<h2>Contact Us</h2>
 			<div>
 				<div class="contact-img-left">
-					<img src="includes/images/contact-1.png" alt="">
+					<img src="includes/images/contact-1.png">
 				</div>
 				<div class="contact-text-right">
 					<p>Bill Kyriakopoulos</p>
@@ -36,7 +36,4 @@
 		</div>
 	</div>
 </div>
-    <!-- Bootstrap core JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="includes/js/bootstrap.min.js"></script>
 </body></html>
