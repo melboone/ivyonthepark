@@ -23,7 +23,7 @@
  src: url("PlayfairDisplay-Italic.ttf") /* TTF file for CSS3 browsers */
 }
 body {
-  font-family: PlayfairDisplay-Regular, Verdana, Arial, sans-serif;
+  font-family: PlayfairDisplay-Regular;
   font-size: 0.9em;
   color: #797A7D;
   background-color: #fff;
@@ -34,6 +34,7 @@ body {
   width: 100%;
   min-width: 1630px;
   font-weight: 100;
+  font-style: normal;
 }
 
 .menu2 .menu .menu2 a,
@@ -60,11 +61,18 @@ img.page-image{
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: -11px;
-	border-width: 0 15px 0 0;
+	border: 0;
+	border-right: 15px solid transparent;
 	border-image: url("../images/border-right.png") 0 11 0 0 repeat;
+	-moz-border-image:url("../images/border-right.png") 0 11 0 0 repeat;
+	-webkit-border-image:url("../images/border-right.png") 0 11 0 0 repeat;
+	-o-border-image:url("../images/border-right.png") 0 11 0 0 repeat;
 }
 .purple{
   border-image: url("../images/purple-right.png") 0 11 0 0 repeat;
+  -moz-border-image:url("../images/purple-right.png") 0 11 0 0 repeat;
+  -webkit-border-image:url("../images/purple-right.png") 0 11 0 0 repeat;
+  -o-border-image:url("../images/purple-right.png") 0 11 0 0 repeat;
 }
 .container-text{
 	width: 30%;
@@ -108,13 +116,15 @@ img.page-image{
 	font-size: 1.1em;
 }
 .table-left div:first-child{
-  border-width: 20px;
   max-width: 80%;
   margin: auto;
   width: 350px;
   padding: 20px 0;
   min-width: 190px;
+  border: 20px solid transparent;
   border-image: url('../images/green-border.jpg') 100 100 100 100 repeat stretch;
+  	-moz-border-image:url('../images/green-border.jpg') 100 100 100 100 repeat stretch;
+	-o-border-image:url('../images/green-border.jpg') 100 100 100 100 repeat stretch;
 }
 
 .table-center{
@@ -177,6 +187,11 @@ img.page-image{
 }
 .mandatory-field span{
   color: #ff0000;
+}
+
+.text_box{
+	background-color: #fff;
+}
 }
 
 article,
