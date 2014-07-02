@@ -1,4 +1,4 @@
-<div class="footer footer-border">
+<div class="footer footer-border-purple">
 	<div class="footer-table">
 		<div class="table-left">
 			<div><a href="includes/images/ivy-map.jpg" class="group3" style="text-decoration:none;width:100%;">
