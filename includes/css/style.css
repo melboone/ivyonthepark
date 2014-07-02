@@ -24,8 +24,7 @@
 }
 body {
   font-family: PlayfairDisplay-Regular, Verdana, Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.42857143;
+  font-size: 0.9em;
   color: #797A7D;
   background-color: #fff;
   margin: 0;
@@ -34,9 +33,8 @@ body {
   line-height: 2em;
   width: 100%;
   min-width: 1630px;
+  font-weight: 100;
 }
-
-
 
 .menu2 .menu .menu2 a,
 .menu3 .menu .menu3 a,
@@ -52,6 +50,7 @@ body {
 
 .navbar-header img {
 	margin: 15px 0;
+	width: 160px;
 }
 img.page-image{
 	max-width: 100%;
@@ -76,7 +75,7 @@ img.page-image{
 }
 .container-text p:first-child{
 	color: #0BB36A;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	padding-top: 30px;
 
 }
