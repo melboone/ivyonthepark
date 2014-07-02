@@ -1,10 +1,10 @@
 <div class="footer footer-border">
 	<div class="footer-table">
 		<div class="table-left">
-			<div>
+			<div><a href="includes/images/ivy-map.jpg" class="group3" style="text-decoration:none;width:100%;">
 				<h3>Location Map</h3>
-				<p><a href="includes/images/ivy-map.jpg" class="group3">Click to view</a></p>
-			</div>
+				<p>Click to view</p>
+			</a></div>
 		</div>
 		<div class="table-center">
 			<h2>Register your interst now</h2>
