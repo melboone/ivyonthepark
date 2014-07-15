@@ -24,29 +24,11 @@
 <!-- END MENU -->
 <div class="page-container">
 	<div class="main-container purple">
-		<img src="includes/images/architecture.jpg" alt="Ivy Architecture" class="page-image">
+		<img src="includes/images/penthouse_1.jpg" alt="Ivy Penthouse" class="page-image">
 	</div>
 	<div class="container-text">
-		<p style="color:#AD338E">‘Stunning’ doesn’t do justice Ivy On
-the Park’s selection of two exclusive
-penthouses.
-</p>
-		<article>These two-bedroom, two-bathroom havens
-unleash a level of luxury that has to be
-experienced to be believed. The indulgence
-starts with a huge entertainer’s balcony and
-continues into the living area, where a built-
-in TV cabinet and bioethanol gas fireplace
-take pride of place, while engineered
-floorboards immediately set the scene.
-The kitchen is awash with stylish features,
-including black-on-black kitchen cabinetry,
-a 60mm waterfall benchtop, Bosch stainless
-steel appliances and a built-in wine rack.
-Black, high gloss cabinets form the
-centrepiece in the bathrooms, which also
-feature exquisite porcelain tiling, while the
-bedrooms are lushly carpeted.
+		<p style="color:#AD338E">‘Stunning’ doesn’t do justice Ivy On the Park’s selection of two exclusive penthouses. </p>
+		<article>These two-bedroom, two-bathroom havens unleash a level of luxury that has to be experienced to be believed. The indulgence starts with a huge entertainer’s balcony and continues into the living area, where a built-in TV cabinet and bioethanol gas fireplace take pride of place, while engineered floorboards immediately set the scene. The kitchen is awash with stylish features, including black-on-black kitchen cabinetry, a 60mm waterfall benchtop, Bosch stainless steel appliances and a built-in wine rack. Black, high gloss cabinets form the centrepiece in the bathrooms, which also feature exquisite porcelain tiling, while the bedrooms are lushly carpeted.
 </article>
 	</div>
 </div>

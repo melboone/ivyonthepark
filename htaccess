@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^DOMENIU.com.au [NC]
+RewriteRule ^(.*)$ http://www.DOMENIU.com.au/$1 [L,R=301]

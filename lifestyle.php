@@ -24,7 +24,7 @@
 <!-- END MENU -->
 <div class="page-container">
   <div class="main-container purple">
-    <img src="includes/images/architecture.jpg" alt="Ivy Architecture" class="page-image">
+    <img src="includes/images/lifestyle_1.jpg" alt="Ivy Lifestyle" class="page-image">
   </div>
   <div class="container-text">
     <p style="color:#AD338E">Live your green dream at East Ivanhoe’s newest boutique delight.</p>
