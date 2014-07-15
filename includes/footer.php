@@ -3,7 +3,7 @@
 		<div class="table-left">
 			<div>
 				<h3>FLOOR PLANS</h3>
-				<a class="group3" href="includes/images/floor-plans/G01.jpg">CLICK TO VIEW</a>
+				<a>CLICK TO VIEW</a>
 				<p><a class="group3" href="includes/images/floor-plans/G01.jpg" title="Ground 1">G.01</a> | 
 				<a class="group3" href="includes/images/floor-plans/G02.jpg" title="Ground 2">G.02</a> | 
 				<a class="group3" href="includes/images/floor-plans/G03.jpg" title="Ground 3">G.03</a></p>
