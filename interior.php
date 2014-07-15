@@ -24,7 +24,16 @@
 <!-- END MENU -->
 <div class="page-container">
 	<div class="main-container">
-		<img src="includes/images/interior_1.jpg" alt="Ivy Interior" class="page-image">
+		<div class="flexslider">
+          <ul class="slides">
+            <li>
+            	<img src="includes/images/interior_1.jpg" alt="" />
+            </li>
+            <li>
+                <img src="includes/images/interior_2.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
 	</div>
 	<div class="container-text">
 		<p>A considered blend of contemporary flair and relaxed comfort, Ivy On the Park has the best of both worlds.</p>

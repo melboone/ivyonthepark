@@ -24,7 +24,22 @@
 <!-- END MENU -->
 <div class="page-container">
   <div class="main-container purple">
-    <img src="includes/images/lifestyle_1.jpg" alt="Ivy Lifestyle" class="page-image">
+    <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="includes/images/lifestyle_2.jpg" alt="" />
+            </li>
+            <li>
+                <img src="includes/images/lifestyle_1.jpg" alt="" />
+            </li>
+            <li>
+                <img src="includes/images/lifestyle_3.jpg" alt="" />
+            </li>
+            <li>
+                <img src="includes/images/lifestyle_4.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
   </div>
   <div class="container-text">
     <p style="color:#AD338E">Live your green dream at East Ivanhoe’s newest boutique delight.</p>

@@ -24,7 +24,16 @@
 <!-- END MENU -->
 <div class="page-container">
 	<div class="main-container purple">
-		<img src="includes/images/penthouse_1.jpg" alt="Ivy Penthouse" class="page-image">
+		    <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="includes/images/penthouse_1.jpg" alt="" />
+            </li>
+            <li>
+                <img src="includes/images/penthouse_2.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
 	</div>
 	<div class="container-text">
 		<p style="color:#AD338E">‘Stunning’ doesn’t do justice Ivy On the Park’s selection of two exclusive penthouses. </p>

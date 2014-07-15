@@ -60,7 +60,6 @@ img.page-image{
 	width: 69%;
 	display: inline-block;
 	vertical-align: top;
-	margin-bottom: -11px;
 	border: 0;
 	border-right: 15px solid transparent;
 	border-image: url("../images/border-right.png") 0 11 0 0 repeat;
